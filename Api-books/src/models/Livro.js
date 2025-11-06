@@ -8,9 +8,8 @@ const livroSchema = new mongoose.Schema({
     preco: { type: Number },
     paginas: { type: Number }
 
-},{versionKey: false});
+}, { versionKey: false });
 
-
-const livro =  mongoose.model("livro", livroSchema);
+const livro = mongoose.model("livro", livroSchema);
 
 export default livro;

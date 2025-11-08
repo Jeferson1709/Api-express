@@ -13,7 +13,7 @@ conexao.on("error", (erro) => {
 conexao.once("open", () => {
  
   console.log("Conexão com o banco feita com sucesso!");
-
+  
 });
 
 const app = express();
